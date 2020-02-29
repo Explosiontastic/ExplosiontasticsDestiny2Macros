@@ -1,0 +1,43 @@
+﻿[PMC Code v5.0.5]|||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro1
+Groups=Start:1,Spider's Materials - 1st Slot:6,Spider's Materials - 2nd Slot:15,Spider's Materials - 3rd Slot:24,Spider's Materials - 4th Slot:33
+1|[Pause]||1|1000|Sleep|||Before first use: Destiny 2 Window size should be set to: "1920 x1080", Window Should be set to: "Windowed Fullscreen".||
+2|WinActivate||1|0|WinActivate||Destiny 2 ahk_class Tiger D3D Window|||
+3|WinMaximize||1|333|WinMaximize|||||
+4|[Pause]||1|2500|Sleep|||||
+5|[Pause]||1|1000|Sleep|||Please check all of one category to purchase materias from Spider. Number of loops is the theroretical maximum number of legendary shards you will attempt to convert into materials for that particular material, in practice maybe 90-95% of purchase attempts are successful. Check additional groups to multiple material types.||
+06|Move|1495, 675, 0|1|400|Click|||||
+07|[LoopStart]|LoopStart|200|0|Loop|||Slot 1 Buy Amounts - Max shards to convert to materials|0x008000|
+08|[Pause]||1|200|Sleep|||Slot 1 Buy||
+09|Left Move & Click|1495, 675 Left, Down|1|0|Click|||Slot 1 Buy||
+010|[Pause]||1|40|Sleep|||Slot 1 Buy||
+011|Left Move & Click|1495, 675 Left, Up|1|0|Click|||Slot 1 Buy||
+012|[Pause]||1|400|Sleep|||Slot 1 Buy||
+013|[LoopEnd]|LoopEnd|1|0|Loop|||Slot 1 Buy||
+014|[Pause]||1|1250|Sleep|||||
+015|Move|1595, 675, 0|1|400|Click|||Slot 2 Buy||
+016|[LoopStart]|LoopStart|200|0|Loop|||Slot 2 Buy Amounts - Max shards to convert to materials|0x008000|
+017|[Pause]||1|200|Sleep|||Slot 2 Buy||
+018|Left Move & Click|1595, 675 Left, Down|1|0|Click|||Slot 2 Buy||
+019|[Pause]||1|40|Sleep|||Slot 2 Buy||
+020|Left Move & Click|1595, 675 Left, Up|1|0|Click|||Slot 2 Buy||
+021|[Pause]||1|400|Sleep|||Slot 2 Buy||
+022|[LoopEnd]|LoopEnd|1|0|Loop|||Slot 2 Buy||
+023|[Pause]||1|1250|Sleep|||||
+024|Move|1695, 675, 0|1|400|Click|||Slot 3 Buy||
+025|[LoopStart]|LoopStart|200|0|Loop|||Slot 3 Buy Amounts - Max shards to convert to materials|0x008000|
+026|[Pause]||1|200|Sleep|||Slot 3 Buy||
+027|Left Move & Click|1695, 675 Left, Down|1|0|Click|||Slot 3 Buy||
+028|[Pause]||1|40|Sleep|||Slot 3 Buy||
+029|Left Move & Click|1695, 675 Left, Up|1|0|Click|||Slot 3 Buy||
+030|[Pause]||1|400|Sleep|||Slot 3 Buy||
+031|[LoopEnd]|LoopEnd|1|0|Loop|||Slot 3 Buy||
+032|[Pause]||1|1250|Sleep|||||
+33|Move|1795, 675, 0|1|400|Click|||Slot 4 Buy||
+34|[LoopStart]|LoopStart|50|0|Loop|||Slot 4 Buy Amounts - Max shards to convert to materials|0x008000|
+35|[Pause]||1|200|Sleep|||Slot 4 Buy||
+36|Left Move & Click|1795, 675 Left, Down|1|0|Click|||Slot 4 Buy||
+37|[Pause]||1|40|Sleep|||Slot 4 Buy||
+38|Left Move & Click|1795, 675 Left, Up|1|0|Click|||Slot 4 Buy||
+39|[Pause]||1|400|Sleep|||Slot 4 Buy||
+40|[LoopEnd]|LoopEnd|1|0|Loop|||Slot 4 Buy||
+
