@@ -1,0 +1,129 @@
+﻿[PMC Code v5.0.5]|||1|Window,2,Fast,0,1,Input,-1,-1,1|1|ObeliskAutobuy
+Groups=Start:1,Obelisk Tab Selection Above (Check all of one colour above) + Weapon Selection Below (Check all of One):24,Perfect Paradox - 2nd ObeliskTab:25,Trophy Hunter - 2nd Obelisk Tab:31,Pyroclastic Flow/Last Perdition:37,Infinite Paths 8 - 3rd Obelisk Tab:43,Gallant Charge - 3rd Obelisk Tab:49,Stealfeather Repeater/Jack Queen King 3:55,Black Scorpion-4SR/Patron of Lost Causes:61,Breachlight/Travellers Judgment 5:67,Martyr's Retribution - 2nd Obelisk Tab:73,Bygones - 2nd Obelisk Tab:79,Line in the Sand - 2nd Obelisk Tab:85,End of Weapon Buy:91,Donate Fractaline:92,Claim Bounties:107
+1|[Pause]||1|1000|Sleep|||Start of Macro. Assumes User is starting from Obelisk, after weekly Fractaline has been collected or dismissed. WARNING: FAILURE TO DIMISS YOUR WEEKLY FRACTALINE COLLECTION BEFORE STARTING THIS MACRO WILL CAUSE IT TO BE COLLECTED WHETHER THERE IS ROOM IN YOUR INVENTORY OR NOT.||
+2|WinActivate||1|0|WinActivate||Destiny 2 ahk_class Tiger D3D Window|||
+3|WinMaximize||1|333|WinMaximize||Destiny 2 ahk_class Tiger D3D Window|||
+4|Move|600, 200, 0|1|0|Click|||User should ensure Destiny 2's resolution is set to: "1920 x1080" Window Mode should be set to: "Windowed Fullscreen"||
+5|[Pause]||1|2500|Sleep|||||
+6|WinActivate||1|0|WinActivate||Destiny 2 ahk_class Tiger D3D Window|||
+7|[LoopStart]|LoopStart|5|0|Loop|||Start of Purchasing. Each loop is 4 Weapon frames, 4 Donations, 4 Bounty Claims.  Max suggested loop is 6/7 for 24-28 weapons. Change to 3 or 4 for Perfect Paradox. This assumes post office is empty and most slots in inventory are free. Additional loops will cause lost weapons.||
+8|[Pause]||1|10|Sleep|||||
+9|[Pause]||1|2000|Sleep|||Obelisk 2nd Tab (Obelisk, Tangled Shore + Mars)|0x8000FF|
+10|Move|1490, 122, 0|1|0|Click|||Obelisk 2nd Tab (Obelisk, Tangled Shore + Mars)|0x8000FF|
+11|[Pause]||1|120|Sleep|||Obelisk 2nd Tab (Obelisk, Tangled Shore + Mars)|0x8000FF|
+12|Left Move & Click|1490, 122 Left, Down|1|0|Click|||Obelisk 2nd Tab (Obelisk, Tangled Shore + Mars)|0x8000FF|
+13|[Pause]||1|120|Sleep|||Obelisk 2nd Tab (Obelisk, Tangled Shore + Mars)|0x8000FF|
+14|Left Move & Click|1490, 122 Left, Up|1|0|Click|||Obelisk 2nd Tab (Obelisk, Tangled Shore + Mars)|0x8000FF|
+15|[Pause]||1|800|Sleep|||Obelisk 2nd Tab (Obelisk, Tangled Shore + Mars)|0x8000FF|
+016|[Pause]||1|2000|Sleep|||Obelisk 3rd Tab (Nessus + EDZ)|0x00FF00|
+017|Move|1560, 122, 0|1|0|Click|||Obelisk 3rd Tab (Nessus + EDZ)|0x00FF00|
+018|[Pause]||1|120|Sleep|||Obelisk 3rd Tab (Nessus + EDZ)|0x00FF00|
+019|Left Move & Click|1560, 122 Left, Down|1|0|Click|||Obelisk 3rd Tab (Nessus + EDZ)|0x00FF00|
+020|[Pause]||1|120|Sleep|||Obelisk 3rd Tab (Nessus + EDZ)|0x00FF00|
+021|Left Move & Click|1560, 122 Left, Up|1|0|Click|||Obelisk 3rd Tab (Nessus + EDZ)|0x00FF00|
+022|[Pause]||1|800|Sleep|||Obelisk 3rd Tab (Nessus + EDZ)|0x00FF00|
+23|[LoopStart]|LoopStart|6|0|Loop|||Start of Individual Weapon Buy - Default 6 buy attempts - Change to 9-10 for Perfect Paradox.||
+024|[Pause]||1|120|Sleep||||0x80FFFF|
+025|Move|1175, 255, 0|1|0|Click|||Perfect Paradox|0x80FFFF|
+026|[Pause]||1|120|Sleep|||Perfect Paradox|0x80FFFF|
+027|Left Move & Click|1175, 255 Left, Down|1|0|Click|||Perfect Paradox|0x80FFFF|
+028|[Pause]||1|1600|Sleep|||Perfect Paradox|0x80FFFF|
+029|Left Move & Click|1175, 255 Left, Up|1|0|Click|||Perfect Paradox|0x80FFFF|
+030|[Pause]||1|800|Sleep|||Perfect Paradox|0x80FFFF|
+031|Move|1275, 255, 0|1|0|Click|||Trophy Hunter|0x80FFFF|
+032|[Pause]||1|120|Sleep|||Trophy Hunter|0x80FFFF|
+033|Left Move & Click|1275, 255 Left, Down|1|0|Click|||Trophy Hunter|0x80FFFF|
+034|[Pause]||1|1600|Sleep|||Trophy Hunter|0x80FFFF|
+035|Left Move & Click|1275, 255 Left, Up|1|0|Click|||Trophy Hunter|0x80FFFF|
+036|[Pause]||1|800|Sleep|||Trophy Hunter|0x80FFFF|
+037|Move|1375, 255, 0|1|0|Click|||Pyroclastic Flow/Last Perdition|0x80FFFF|
+038|[Pause]||1|120|Sleep|||Pyroclastic Flow/Last Perdition|0x80FFFF|
+039|Left Move & Click|1375, 255 Left, Down|1|0|Click|||Pyroclastic Flow/Last Perdition|0x80FFFF|
+040|[Pause]||1|1600|Sleep|||Pyroclastic Flow/Last Perdition|0x80FFFF|
+041|Left Move & Click|1375, 255 Left, Up|1|0|Click|||Pyroclastic Flow/Last Perdition|0x80FFFF|
+042|[Pause]||1|800|Sleep|||Pyroclastic Flow/Last Perdition|0x80FFFF|
+043|Move|1475, 255, 0|1|0|Click|||Infinite Paths 8|0x80FFFF|
+044|[Pause]||1|120|Sleep|||Infinite Paths 8|0x80FFFF|
+045|Left Move & Click|1475, 255 Left, Down|1|0|Click|||Infinite Paths 8|0x80FFFF|
+046|[Pause]||1|1600|Sleep|||Infinite Paths 8|0x80FFFF|
+047|Left Move & Click|1475, 255 Left, Up|1|0|Click|||Infinite Paths 8|0x80FFFF|
+048|[Pause]||1|800|Sleep|||Infinite Paths 8|0x80FFFF|
+049|Move|1575, 255, 0|1|0|Click|||Gallant Charge|0x80FFFF|
+050|[Pause]||1|120|Sleep|||Gallant Charge|0x80FFFF|
+051|Left Move & Click|1575, 255 Left, Down|1|0|Click|||Gallant Charge|0x80FFFF|
+052|[Pause]||1|1600|Sleep|||Gallant Charge|0x80FFFF|
+053|Left Move & Click|1575, 255 Left, Up|1|0|Click|||Gallant Charge|0x80FFFF|
+054|[Pause]||1|800|Sleep|||Gallant Charge|0x80FFFF|
+055|Move|1375, 435, 0|1|0|Click|||Stealfeather Repeater/Jack Queen King 3|0x80FFFF|
+056|[Pause]||1|120|Sleep|||Stealfeather Repeater/Jack Queen King 3|0x80FFFF|
+057|Left Move & Click|1375, 435 Left, Down|1|0|Click|||Stealfeather Repeater/Jack Queen King 3|0x80FFFF|
+058|[Pause]||1|1600|Sleep|||Stealfeather Repeater/Jack Queen King 3|0x80FFFF|
+059|Left Move & Click|1375, 435 Left, Up|1|0|Click|||Stealfeather Repeater/Jack Queen King 3|0x80FFFF|
+060|[Pause]||1|800|Sleep|||Stealfeather Repeater/Jack Queen King 3|0x80FFFF|
+061|Move|1475, 435, 0|1|0|Click|||Black Scorpion-4SR/Patron of Lost Causes|0x80FFFF|
+062|[Pause]||1|120|Sleep|||Black Scorpion-4SR/Patron of Lost Causes|0x80FFFF|
+063|Left Move & Click|1475, 435 Left, Down|1|0|Click|||Black Scorpion-4SR/Patron of Lost Causes|0x80FFFF|
+064|[Pause]||1|1600|Sleep|||Black Scorpion-4SR/Patron of Lost Causes|0x80FFFF|
+065|Left Move & Click|1475, 435 Left, Up|1|0|Click|||Black Scorpion-4SR/Patron of Lost Causes|0x80FFFF|
+066|[Pause]||1|800|Sleep|||Black Scorpion-4SR/Patron of Lost Causes|0x80FFFF|
+067|Move|1575, 435, 0|1|0|Click|||Breachlight/Travellers Judgment 5|0x80FFFF|
+068|[Pause]||1|120|Sleep|||Breachlight/Travellers Judgment 5|0x80FFFF|
+069|Left Move & Click|1575, 435 Left, Down|1|0|Click|||Breachlight/Travellers Judgment 5|0x80FFFF|
+070|[Pause]||1|1600|Sleep|||Breachlight/Travellers Judgment 5|0x80FFFF|
+071|Left Move & Click|1575, 435 Left, Up|1|0|Click|||Breachlight/Travellers Judgment 5|0x80FFFF|
+072|[Pause]||1|800|Sleep|||Breachlight/Travellers Judgment 5|0x80FFFF|
+073|Move|1375, 615, 0|1|0|Click|||Martyr's Retribution|0x80FFFF|
+074|[Pause]||1|120|Sleep|||Martyr's Retribution|0x80FFFF|
+075|Left Move & Click|1375, 615 Left, Down|1|0|Click|||Martyr's Retribution|0x80FFFF|
+076|[Pause]||1|1600|Sleep|||Martyr's Retribution|0x80FFFF|
+077|Left Move & Click|1375, 615 Left, Up|1|0|Click|||Martyr's Retribution|0x80FFFF|
+078|[Pause]||1|800|Sleep|||Martyr's Retribution|0x80FFFF|
+79|Move|1475, 615, 0|1|0|Click|||Bygones|0x80FFFF|
+80|[Pause]||1|120|Sleep|||Bygones|0x80FFFF|
+81|Left Move & Click|1475, 615 Left, Down|1|0|Click|||Bygones|0x80FFFF|
+82|[Pause]||1|1600|Sleep|||Bygones|0x80FFFF|
+83|Left Move & Click|1475, 615 Left, Up|1|0|Click|||Bygones|0x80FFFF|
+84|[Pause]||1|800|Sleep|||Bygones|0x80FFFF|
+085|Move|1575, 615, 0|1|0|Click|||Line in the Sand|0x80FFFF|
+086|[Pause]||1|120|Sleep|||Line in the Sand|0x80FFFF|
+087|Left Move & Click|1575, 615 Left, Down|1|0|Click|||Line in the Sand|0x80FFFF|
+088|[Pause]||1|1600|Sleep|||Line in the Sand|0x80FFFF|
+089|Left Move & Click|1575, 615 Left, Up|1|0|Click|||Line in the Sand|0x80FFFF|
+090|[Pause]||1|800|Sleep|||Line in the Sand|0x80FFFF|
+91|[LoopEnd]|LoopEnd|1|0|Loop|||End of Individual Weapon Buy||
+92|[Pause]||1|1500|Sleep|||Donating Fractaline|0x408080|
+93|Move|1420, 122, 0|1|0|Click||||0x408080|
+94|[Pause]||1|120|Sleep||||0x408080|
+95|Left Move & Click|1420, 122 Left, Down|1|0|Click||||0x408080|
+96|[Pause]||1|120|Sleep||||0x408080|
+97|Left Move & Click|1420, 122 Left, Up|1|0|Click||||0x408080|
+98|[Pause]||1|800|Sleep||||0x408080|
+99|[LoopStart]|LoopStart|4|0|Loop||||0x408080|
+100|Move|1175, 255, 0|1|0|Click||||0x408080|
+101|[Pause]||1|120|Sleep||||0x408080|
+102|Left Move & Click|1175, 255 Left, Down|1|0|Click||||0x408080|
+103|[Pause]||1|3500|Sleep||||0x408080|
+104|Left Move & Click|1175, 255 Left, Up|1|0|Click||||0x408080|
+105|[Pause]||1|800|Sleep||||0x408080|
+106|[LoopEnd]|LoopEnd|1|0|Loop||||0x408080|
+107|k Down|{k Down}|1|0|Send|||IMPORTANT: THIS KEY PRESS MUST MATCH WHATEVER IS  CURRENTLY BOUND UNDER "Key Mapping -> UI Shortcuts -> Open Director - Quests"|0xFF0000|
+108|[Pause]||1|50|Sleep|||IMPORTANT: THIS KEY PRESS MUST MATCH WHATEVER IS  CURRENTLY BOUND UNDER "Key Mapping -> UI Shortcuts -> Open Director - Quests"|0xFF0000|
+109|k Up|{k Up}|1|0|Send|||IMPORTANT: THIS KEY PRESS MUST MATCH WHATEVER IS  CURRENTLY BOUND UNDER "Key Mapping -> UI Shortcuts -> Open Director - Quests"|0xFF0000|
+110|[Pause]||1|4000|Sleep||||0x808000|
+111|Move|1380, 265, 0|1|0|Click||||0x808000|
+112|[LoopStart]|LoopStart|6|0|Loop|||Loop for Claiming Bounties + Redundancy (6 Attempts). Change  to 10 if you wish to claim up to 7 Perfect Paradoxes.|0x808000|
+113|Left Move & Click|1380, 265 Left, Down|1|0|Click|||Loop for Claiming Bounties + Redundancy (6 Attempts). Changey to 10 if you wish to claim up to 7 Perfect Paradoxes.|0x808000|
+114|[Pause]||1|60|Sleep||||0x808000|
+115|Left Move & Click|1380, 265 Left, Up|1|0|Click||||0x808000|
+116|[Pause]||1|800|Sleep||||0x808000|
+117|[LoopEnd]|LoopEnd|1|0|Loop|||End of Bounty Claim Loop.|0x808000|
+118|Escape Down|{Escape Down}|1|0|Send||||0x808000|
+119|[Pause]||1|40|Sleep||||0x808000|
+120|Escape Up|{Escape Up}|1|0|Send||||0x808000|
+121|[Pause]||1|2500|Sleep||||0x808000|
+122|[LoopEnd]|LoopEnd|1|0|Loop|||End of 1 Full Cycle|0x808000|
+123|[Pause]||1|600|Sleep|||Exits Obelisk after completion.|0x808000|
+124|Escape Down|{Escape Down}|1|0|Send||||0x808000|
+125|[Pause]||1|40|Sleep||||0x808000|
+126|Escape Up|{Escape Up}|1|0|Send||||0x808000|
+
